@@ -1,5 +1,5 @@
-class Dashing.Btcprice extends Dashing.Widget
+class Dashing.Ltcprice extends Dashing.Widget
   @accessor 'value', Dashing.AnimatedValue
-  @accessor 'btcprice', ->
+  @accessor 'ltcprice', ->
     if @get('value')
       price = parseFloat(@get('value'))
